@@ -1,0 +1,146 @@
+
+HR ANALYTICS PROJECT
+Final Exploratory Data Analysis (EDA) Summary
+
+1. PROJECT OVERVIEW
+This project analyzes employee attrition using the IBM HR Analytics Employee Attrition & Performance dataset.
+
+The objective is to identify employee attrition patterns, understand factors associated with employees leaving the organization, and provide data-driven recommendations to improve employee retention.
+
+Tools Used:
+- PostgreSQL
+- SQL
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- VS Code
+
+2. DATASET OVERVIEW
+- Total Employees: 1,470
+- Employees Who Stayed: 1,233
+- Employees Who Left: 237
+- Total Columns: 32
+- Overall Attrition Rate: 16.12%
+
+3. KEY FINDINGS
+
+A. Department-wise Attrition
+- Sales: 20.63%
+- Human Resources: 19.05%
+- Research & Development: 13.84%
+
+Sales has the highest attrition rate among the three departments.
+
+B. Job Role-wise Attrition
+- Sales Representative: 39.76%
+- Laboratory Technician: 23.94%
+- Human Resources: 23.08%
+- Sales Executive: 17.48%
+- Research Scientist: 16.10%
+- Manufacturing Director: 6.90%
+- Healthcare Representative: 6.87%
+- Manager: 4.90%
+- Research Director: 2.50%
+
+Sales Representatives have the highest attrition rate.
+
+C. Age Group-wise Attrition
+- Under 25: 35.77%
+- 25–34: 19.14%
+- 35–44: 9.19%
+- 45–54: 11.50%
+- 55+: 17.02%
+
+Employees under 25 have the highest attrition rate.
+
+D. Overtime Analysis
+- Employees working overtime: 30.53%
+- Employees not working overtime: 10.44%
+
+Employees working overtime show a considerably higher attrition rate.
+
+E. Monthly Income Analysis
+- Average income of employees who stayed: 6,832.74
+- Average income of employees who left: 4,787.09
+
+Employees who left had a lower average monthly income.
+
+F. Job Satisfaction
+- Level 1: 22.84%
+- Level 2: 16.43%
+- Level 3: 16.52%
+- Level 4: 11.33%
+
+Employees with the lowest job satisfaction show the highest attrition rate.
+
+G. Work-Life Balance
+- Level 1: 31.25%
+- Level 2: 16.86%
+- Level 3: 14.22%
+- Level 4: 17.65%
+
+Employees reporting the lowest work-life balance have the highest attrition rate.
+
+H. Business Travel
+- Non-Travel: 8.00%
+- Travel Frequently: 24.91%
+- Travel Rarely: 14.96%
+
+Frequent business travel is associated with higher attrition.
+
+I. Distance from Home
+- 0–5 km: 13.77%
+- 6–10 km: 14.47%
+- 11–20 km: 20.00%
+- 21+ km: 22.06%
+
+Employees travelling longer distances show higher attrition rates.
+
+J. Marital Status
+- Single: 25.53%
+- Married: 12.48%
+- Divorced: 10.09%
+
+Single employees have the highest attrition rate.
+
+4. IMPORTANT BUSINESS INSIGHTS
+
+1. Sales Representatives are a high-priority group for employee retention.
+2. Younger employees, particularly those under 25, show higher attrition.
+3. Employees working overtime have a considerably higher attrition rate.
+4. Lower job satisfaction and poor work-life balance are associated with higher attrition.
+5. Frequent business travel and longer commuting distances are associated with higher attrition.
+6. Employees who left had lower average monthly income than employees who stayed.
+
+5. BUSINESS RECOMMENDATIONS
+
+1. Review workload distribution and overtime policies.
+2. Introduce employee engagement and retention programs for younger employees.
+3. Review compensation and career growth opportunities.
+4. Improve work-life balance through flexible working arrangements where possible.
+5. Evaluate travel requirements and employee commuting challenges.
+6. Conduct regular employee satisfaction surveys.
+7. Develop targeted retention strategies for high-attrition job roles.
+
+6. VISUALIZATION SUMMARY
+
+Five visualizations were created using Python, Matplotlib, and Seaborn:
+
+1. Overall Employee Attrition
+2. Department-wise Attrition
+3. Job Role-wise Attrition
+4. Age Group-wise Attrition
+5. Overtime-wise Attrition
+
+All visualizations are saved in the reports folder.
+
+7. FINAL CONCLUSION
+
+The analysis identified several employee groups with comparatively higher attrition rates, particularly Sales Representatives, employees under 25, and employees working overtime.
+
+Job satisfaction, work-life balance, income, business travel, and commuting distance also showed associations with employee attrition.
+
+These insights can help HR teams identify retention priorities and develop data-driven employee engagement strategies.
+
+Note: The analysis identifies associations and patterns in the dataset. It does not establish that any individual factor directly causes employee attrition.
