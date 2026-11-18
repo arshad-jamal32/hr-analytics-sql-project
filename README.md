@@ -105,6 +105,23 @@ Developed an interactive HR Analytics Dashboard using Power BI, connected to the
 
 Both files are available in the `reports/` folder.
 
+## Data Visualizations
+
+### 1. Overall Employee Attrition
+![Overall Employee Attrition](reports/01_overall_attrition.png)
+
+### 2. Department-wise Attrition
+![Department-wise Attrition](reports/02_department_attrition.png)
+
+### 3. Job Role-wise Attrition
+![Job Role-wise Attrition](reports/03_jobrole_attrition.png)
+
+### 4. Age Group-wise Attrition
+![Age Group-wise Attrition](reports/04_age_attrition.png)
+
+### 5. Overtime-wise Attrition
+![Overtime-wise Attrition](reports/05_overtime_attrition.png)
+
 ## Key Business Insights
 
 ### 1. Overall Attrition
