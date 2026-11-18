@@ -6,13 +6,13 @@ This project focuses on analyzing employee attrition using the IBM HR Analytics 
 
 The objective is to identify patterns associated with employee attrition, understand workforce trends, and generate actionable insights that can help HR teams improve employee retention.
 
-The project combines **PostgreSQL, SQL, and Python** to perform data exploration, business analysis, and visualization.
+This end-to-end data analytics project uses **PostgreSQL, SQL, Python, and Power BI** for data exploration, business analysis, visualization, and interactive dashboard development.
 
 ## Business Problem
 
 Employee attrition can increase recruitment costs, reduce productivity, and affect organizational performance.
 
-This analysis explores questions such as:
+This project explores questions such as:
 
 - Which department has the highest employee attrition?
 - Which job roles experience the most employee turnover?
@@ -25,11 +25,13 @@ This analysis explores questions such as:
 
 **Dataset:** IBM HR Analytics Employee Attrition & Performance
 
-- Total Employees: 1,470
-- Total Columns: 32
-- Employees Who Stayed: 1,233
-- Employees Who Left: 237
-- Overall Attrition Rate: 16.12%
+| Metric | Value |
+|---|---:|
+| Total Employees | 1,470 |
+| Total Columns | 32 |
+| Employees Who Stayed | 1,233 |
+| Employees Who Left | 237 |
+| Overall Attrition Rate | 16.12% |
 
 The dataset contains employee information such as age, department, job role, monthly income, job satisfaction, overtime, work-life balance, and attrition status.
 
@@ -41,9 +43,9 @@ The dataset contains employee information such as age, department, job role, mon
 | SQL | Business data analysis |
 | Python 3.11 | Data analysis |
 | Pandas | Data manipulation |
-| Matplotlib | Data visualization |
-| Seaborn | Statistical visualization |
+| Matplotlib & Seaborn | Data visualization |
 | SQLAlchemy | PostgreSQL connection |
+| Power BI | Interactive dashboard development |
 | VS Code | Development environment |
 
 ## Project Workflow
@@ -61,6 +63,7 @@ The dataset contains employee information such as age, department, job role, mon
 - Connected PostgreSQL with Python using SQLAlchemy.
 
 ### 3. SQL Business Analysis
+
 Performed approximately 90 SQL analysis queries to investigate:
 
 - Overall employee attrition.
@@ -76,14 +79,31 @@ Performed approximately 90 SQL analysis queries to investigate:
 ### 4. Python Exploratory Data Analysis
 Used Pandas to analyze employee attrition patterns across different categories.
 
-### 5. Data Visualization
-Created five visualizations using Matplotlib and Seaborn:
+### 5. Python Data Visualization
+Created five visualizations using Matplotlib and Seaborn to explore employee attrition patterns.
 
-1. Overall Employee Attrition
-2. Department-wise Attrition
-3. Job Role-wise Attrition
-4. Age Group-wise Attrition
-5. Overtime-wise Attrition
+### 6. Power BI Dashboard Development
+
+Developed an interactive HR Analytics Dashboard using Power BI, connected to the PostgreSQL database.
+
+**Dashboard KPIs:**
+- Total Employees
+- Attrition Count
+- Attrition Rate
+- Average Monthly Income
+
+**Dashboard Visualizations:**
+1. Employee Attrition by Department
+2. Employee Attrition by Job Role
+3. Employee Attrition by Age Group
+4. Attrition Rate by Overtime
+5. Attrition Rate by Job Satisfaction
+
+**Dashboard Files:**
+- `HR_Analytics_Dashboard.pbix` – Power BI dashboard file.
+- `HR_Analytics_Dashboard.pdf` – Exported dashboard report.
+
+Both files are available in the `reports/` folder.
 
 ## Key Business Insights
 
@@ -170,9 +190,12 @@ hr-analytics-sql-project/
 │   ├── 03_jobrole_attrition.png
 │   ├── 04_age_attrition.png
 │   ├── 05_overtime_attrition.png
+│   ├── HR_Analytics_Dashboard.pbix
+│   ├── HR_Analytics_Dashboard.pdf
 │   └── final_eda_summary.txt
 │
 ├── sql/
+│   └── SQL analysis scripts
 │
 ├── data_profiling.py
 └── README.md
@@ -184,6 +207,7 @@ hr-analytics-sql-project/
 - Python 3.11 or above
 - PostgreSQL
 - VS Code
+- Power BI Desktop (for opening the dashboard)
 
 ### Install Required Libraries
 
@@ -221,7 +245,7 @@ Ensure that the PostgreSQL database and imported `hr_employee` table are availab
 
 ## Final Conclusion
 
-This project demonstrates the use of SQL and Python for practical HR analytics.
+This project demonstrates an end-to-end data analytics workflow using PostgreSQL, SQL, Python, and Power BI.
 
 By analyzing employee demographics, job roles, compensation, overtime, satisfaction, and work-life balance, the project identifies important attrition patterns and potential employee retention priorities.
 
@@ -229,4 +253,4 @@ By analyzing employee demographics, job roles, compensation, overtime, satisfact
 
 ---
 
-**Project Category:** Data Analytics | HR Analytics | SQL | Python
+**Project Category:** Data Analytics | HR Analytics | SQL | Python | Power BI
